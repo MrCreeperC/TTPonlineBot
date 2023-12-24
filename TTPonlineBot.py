@@ -1,4 +1,3 @@
-from os import name
 import discord
 from mcstatus import JavaServer
 from discord.ext import commands
@@ -46,7 +45,7 @@ async def _list(lists):
 
         "**[ʜᴇʟᴘᴇʀ]:**": ["josmack", "kaaprka", "Schalke"],
 
-        "**[ʙᴜɪʟᴅᴇʀ]:**": ["derov1ch", "serhtru", ".mnk", "folin01"]
+        "**[ʙᴜɪʟᴅᴇʀ]:**": ["derov1ch", "serhtru", ".mnk", "folin01", "Mr_Mechanic"]
     }
 
     # Создаем список для игроков, не принадлежащих к какой-либо категории
@@ -69,18 +68,18 @@ async def _list(lists):
     
     # Добавляем игроков из категорий
     for category, category_players in categorized_players.items():
-        message += f"{category} {', '.join(category_players)}\n\n"  # Добавляем пустую строку после каждой категории
+        message += f"{category} {' **|** '.join(category_players)}\n\n"  # Добавляем пустую строку после каждой категории
     
     # Добавляем игроков без категории
     if uncategorized_players:
-        message += "**Без категории (Игроки):** " + ', '.join(uncategorized_players) + "\n"
+        message += "**Без категории (Игроки):** " + ' **|** '.join(uncategorized_players) + "\n"
     
 
-    all_player = ttp_status.players.online / 2
+    all_player = int(ttp_status.players.online / 2)
     message += f"\nВсего игроков: {all_player}"
 
     in_embed = discord.Embed( # Создаем эмбед для сообщения внутри тикета
-            title="Список людей TTP",
+            title="Список людей TTP:",
             description=message,
             color=0xD69E6D
         )
