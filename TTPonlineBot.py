@@ -1,14 +1,7 @@
 from os import name
-import random
-import subprocess
 import discord
-import mcstatus
-import requests
-from bs4 import BeautifulSoup   
 from mcstatus import JavaServer
 from discord.ext import commands
-from discord import Button, ButtonStyle, Permissions
-from discord.ui import View, Button
 
 # Устанавливаем интенты для работы с сообщениями
 intents = discord.Intents.default()
