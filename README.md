@@ -9,7 +9,7 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/your-username/TTPonlineBot.git
+git clone https://github.com/MrCreeperC/TTPonlineBot.git
 ```
 2. Установите необходимые зависимости:
 ```cmd
