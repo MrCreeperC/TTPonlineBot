@@ -45,7 +45,7 @@ async def _list(lists):
 
         "**[ʜᴇʟᴘᴇʀ]:**": ["josmack", "kaaprka", "Schalke"],
 
-        "**[ʙᴜɪʟᴅᴇʀ]:**": ["derov1ch", "serhtru", ".mnk", "folin01", "Mr_Mechanic"]
+        "**[ʙᴜɪʟᴅᴇʀ]:**": ["derov1ch", "serhtru", ".mnk", "folin01", "Mr\\_\\_Mechanic"]
     }
 
     # Создаем список для игроков, не принадлежащих к какой-либо категории
