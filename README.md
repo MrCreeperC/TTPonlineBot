@@ -2,7 +2,7 @@
 
 Этот бот предназначен для просмотра онлайн-статуса сервера TimeToPlay и вывода информации о количестве пользователей онлайн, их никнеймах и категориях в Discord по команде !лист_ттп (например, ᴅᴇᴠᴇʟᴏᴘᴇʀ, ꜱᴛᴀꜰꜰ, sᴛ.ᴍᴏᴅᴇʀ и т.д.).
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Static Badge](https://img.shields.io/badge/Creeper-MIT-MIT?style=plastic&color=41FF4E)
 
 ## Установка
 
