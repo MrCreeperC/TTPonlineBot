@@ -23,7 +23,7 @@ async def on_ready():
     print(f'{bot.user} готов к работе')
 
 
-@bot.command(name='лист_ттп')
+@bot.command(name='лист_ттп', aliases=["Лист_ттп", "Лист_ТТП", "Лист_Ттп", "лист_ТТП", "ЛИСТ_ТТП", "лист_Ттп"])
 async def _list(lists):
     ttp_query = ttp.query()
     ttp_status = ttp.status()
